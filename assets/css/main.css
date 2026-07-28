@@ -1,5 +1,40 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+
+/* Custom Vulf Sans Font Declarations */
+@font-face {
+    font-family: 'Vulf Sans';
+    src: url('../webfonts/VulfSans/VulfSansDemo-Regular.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vulf Sans';
+    src: url('../webfonts/VulfSans/VulfSansDemo-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vulf Sans';
+    src: url('../webfonts/VulfSans/VulfSansDemo-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vulf Sans';
+    src: url('../webfonts/VulfSans/VulfSansDemo-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vulf Sans';
+    src: url('../webfonts/VulfSans/VulfSansDemo-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 /*
 	Phantom by HTML5 UP
@@ -117,7 +152,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Vulf Sans", Helvetica, sans-serif !important;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
